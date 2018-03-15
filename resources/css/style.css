@@ -30,7 +30,7 @@ justify-content: space-between;
 color: MediumAquamarine;
 }
 
-.header nav{
+.header .nav{
   margin-right: 50px;
 }
 
@@ -39,5 +39,8 @@ color: MediumAquamarine;
   display: inline-block;
   justify-content: flex-end;
   padding: 20px 10px;
-  margin-right: 30px;
+}
+
+a {
+    color: black;
 }
