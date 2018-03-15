@@ -94,6 +94,9 @@ a {
 
 .firstp{
   border: 1px solid black;
+  font-family: Georgia;
+    font-size: 17px;
+    color: black;
 }
 
 .stories {
@@ -112,6 +115,12 @@ a {
   width: 300px;
 }
 
+.orca p{
+  font-family: Georgia;
+    font-size: 17px;
+    color: black;
+}
+
 .burger{
   display: flex;
   flex-direction: column;
@@ -120,6 +129,12 @@ a {
   font-size: 17px;
   color: black;
   width: 300px;
+}
+
+.burger p{
+  font-family: Georgia;
+    font-size: 17px;
+    color: black;
 }
 
 .facts{
@@ -134,6 +149,12 @@ a {
   flex-direction: column;
   height: 300px;
   width: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  justify-content: center;
 }
 
 .research{
@@ -142,6 +163,12 @@ a {
   flex-direction: column;
   height: 300px;
   width: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  justify-content: center;
 }
 /* COLUMNA1 */
 
@@ -152,6 +179,32 @@ a {
   flex-direction: column;
   margin-right: 32px;
   border: 1px solid black;
+}
+
+.fbi p{
+  font-family: Georgia;
+    font-size: 17px;
+    color: black;
+}
+
+.cats{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  justify-content: center;
+}
+
+.brooklyn{
+  font-family: Georgia;
+    font-size: 17px;
+    color: black;
 }
 /* COLUMNA2 */
 
@@ -164,5 +217,31 @@ a {
   border: 1px solid black;
 }
 /* COLUMNA3 */
+
+.bites{
+  width: 240px;
+  height: 342px;
+}
+
+.bites h3{
+margin-bottom: 41px;
+font-size: 16px;
+font-weight: bold;
+text-align: center;
+}
+
+.bites p{
+display: block;
+padding: 11px 20px;
+border-bottom: 1px solid black;
+background-color: WhiteSmoke;
+font-family: Verdana;
+font-size: 12px;
+color: DimGray;
+}
+
+.pe{
+  background-color: WhiteSmoke;
+}
 
 /* COLUMNAS */
