@@ -1,3 +1,20 @@
+h2{
+margin-top: 0;
+margin-bottom: 0;
+font-family: Georgia;
+font-size: 30px;
+font-weight: bold;
+font-style: normal;}
+
+p{
+  display: block;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+}
+
+/* HEADER */
 .header{
 display: flex;
 align-items: center;
@@ -11,6 +28,7 @@ font-family: Verdana;
 font-size: 14px;
 font-weight: bold;
 justify-content: space-between;
+
 }
 
 .header .logo{
@@ -44,3 +62,44 @@ color: MediumAquamarine;
 a {
     color: black;
 }
+/* HEADER */
+
+/* COLUMNAS */
+.column{
+  display: flex;
+  position: relative;
+  top: 100px;
+  align-items: center;
+}
+
+/* COLUMNA1 */
+.column .one{
+  display: flex;
+  width: 630px;
+  flex-direction: column;
+  margin-right: 32px;
+  border: 1px solid black;
+}
+/* COLUMNA1 */
+
+/* COLUMNA2 */
+.column .two{
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  margin-right: 32px;
+  border: 1px solid black;
+}
+/* COLUMNA2 */
+
+/* COLUMNA3 */
+.column .three{
+  display: flex;
+  width: 240px;
+  flex-direction: column;
+  margin-right: 32px;
+  border: 1px solid black;
+}
+/* COLUMNA3 */
+
+/* COLUMNAS */
